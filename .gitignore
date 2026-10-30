@@ -1,0 +1,25 @@
+# Dataset (videos are not shared in this repository)
+Sexual_Harassment_Dataset/
+*.zip
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model checkpoints and training logs
+checkpoints/
+*.pth
+*.pt
+*.bin
+*.safetensors
+training_history*.csv
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
